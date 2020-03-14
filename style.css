@@ -1,0 +1,207 @@
+@media screen and (max-width: 700px){
+    body{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        font-family: Arial;
+    }
+}
+
+body{
+    background-color: #C2C5C4;
+    width: 41%;
+    min-width: 41%;
+    margin: auto;
+    display: flex;
+    font-family: Arial;
+}
+
+#cv{
+    border: 1px solid grey;
+    display: flex;
+}
+
+ul, p{
+    font-size: 0.9em;
+}
+
+/* Colonne de gauche */
+
+#ctgauche{
+    background-color: #FECA07;
+    padding: 20px;
+    width: 17.1em;
+    max-width: 30%;
+    color: black;
+}
+
+#ctgauche h3{
+    color: #FECA07;
+    text-align: center;
+}
+
+.titreContact, .titreApropos{
+    height: 2em;
+    vertical-align: middle;
+    line-height: 2em;
+    width: 17.1em;
+    background-color: #404040;
+    position: relative;
+    left: -1.25em;
+}
+
+.infop{
+    position: relative;
+    top: 2em;
+}
+
+img.photopierre{
+    width: 10em;
+    border-radius: 5em;
+    position: relative;
+    left: 2.5em;
+    top: -1em;
+}
+
+img.skype, img.mail, img.gps, img.phone, img.linkedin{
+    width: 1em;
+}
+
+.apropos{
+    position: relative;
+    top: 4em;
+}
+
+.apropos p{
+    text-align: justify;
+}
+
+.ctgauche .infop p{
+    position: relative;
+    top: 1em;
+}
+
+/* Colonne de droite */
+
+#ctdroit{
+    background-color: #ffffff;
+    padding: 20px;
+    height: 60em;
+    min-width: 60%;
+}
+
+.titre{
+    position: relative;
+    top: 1em;
+}
+
+h1{
+    font-size: 2.3em;
+    position: relative;
+    left: 0.65em;
+}
+
+h2{
+    position: relative;
+    top: -1em;
+    color: black;
+    position: relative;
+    left: 1.25em;
+    font-size: 1.3em;
+}
+
+#ctdroit h3{
+    color: black;
+    position: relative;
+    left: 1.3em;
+}
+
+#ctdroit h3 strong{
+    position: relative;
+    left: 1em;
+}
+
+strong.nom{
+    color: #FECA07;
+}
+
+.formation div{
+    display: flex;
+}
+
+.renseignementsO{
+    position: relative;
+    left: 12em;
+}
+
+.renseignements{
+    position: relative;
+    left: 11em;
+}
+
+.dates{
+    position: relative;
+    left: 1.6em;
+}
+
+.dates strong{
+    font-style: none;
+    position: relative;
+    left: 0.8em;
+}
+
+.formation{
+    position: relative;
+    top: 3em;
+    text-align: justify;
+}
+
+.formation div{
+    position: relative;
+    top: -1em;
+}
+
+.experience{
+    position: relative;
+    top: 4em;
+    text-align: justify;
+}
+
+.competence{
+    position: relative;
+    top: 5em;
+}
+
+img.separateurD{
+    height: 2px;
+    width: 3em;
+    position: relative;
+    top: -0.75em;
+}
+
+img.separateurF, img.separateurE, img.separateurC{
+    height: 2px;
+    width: 95%;
+    position: relative;
+    top: -0.75em;
+}
+
+img.hat{
+    width: 1.35em;
+}
+
+img.briefcase, img.pencil{
+    width: 1.2em;
+}
+
+img.dotcircle, img.circle{
+    width: 0.5em;
+}
+
+.informatique{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -1em;
+    left: -2em;
+}
