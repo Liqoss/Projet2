@@ -1,0 +1,80 @@
+body{
+    width: 100%;
+}
+
+#cv{
+    width: 100%;
+    display: block;
+    font-size: 90%;
+}
+
+/* 1ere Partie en jaune */
+
+#ctgauche{
+    width: auto;
+}
+
+img.photopierre{
+    width: 7.5em;
+    margin-left: 4%;
+    margin-bottom: 2.5em;
+}
+
+h1{
+    position: absolute;
+    top: 1.3em;
+    left: 47.3%;
+    font-size: 1.7em;
+}
+
+h1 span{
+    color: white;
+}
+
+h2{
+    position: absolute;
+    left: 47.2%;
+    top: 5.6em;
+    font-size: 1.1em;
+}
+
+h2 span{
+    border-bottom: 1px solid white;
+    filter: brightness(98%);
+}
+
+#ctgauche h3, .contact .contenuContact{
+    text-align: center;
+}
+
+.loisirs{
+    margin-top: 2em;
+}
+
+/* 2ere Partie en blanc */
+
+#ctdroit{
+    width: auto;
+}
+
+#ctdroit h3{
+    text-align: center;
+}
+
+div.ligne{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.formation h3{
+    margin-top: 2em;
+}
+
+.groupeColonne{
+    justify-content: space-evenly;
+}
+
+.colonne{
+    font-size: 0.9em;
+}

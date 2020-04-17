@@ -1,122 +1,194 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/extra_small.css" media="(max-width: 575.98px)">
+    <link rel="stylesheet" href="css/small.css" media="(min-width: 576px) and (max-width: 767.98px)">
+    <link rel="stylesheet" href="css/medium.css" media="(min-width: 768px) and (max-width: 991.98px)">
+    <link rel="stylesheet" href="css/large.css" media="(min-width: 992px) and (max-width: 1349.98px)">
+    <link rel="stylesheet" href="css/extra_large.css" media="(min-width: 1350px)">
+    <script src="https://kit.fontawesome.com/48432da99e.js" crossorigin="anonymous"></script>
     <title>CV Pruvost Pierre</title>
 </head>
 <body>
-        <!--Coté gauche-->
     <div id="cv">
+        
+    <!--Coté gauche-->
+        
         <section id="ctgauche">
-            <article class="infop">
-                <p>
-                    <img src="image/photopierre.jpg" class="photopierre"><br><br>
-                    <div class="titreContact"><h3>CONTACT</h3></div><br>
-                    <img src="image/gps.png" class="gps"> Adresse<br>Marcq-en-Baroeul, 59700<br><br>
-                    <img src="image/phone.png" class="phone"> Téléphone<br>06 26 60 12 43<br><br>
-                    <img src="image/mail.png" class="mail"> Email<br>pruvost.pierre59@gmail.com<br><br>
-                    <img src="image/linkedin.png" class="linkedin"> Linkedin<br>https://www.linkedin.com/in/pierre-pruvost-78096413b/<br><br>
-                    <img src="image/skype.png" class="skype"> Skype<br>@abp2p
+            <img src="image/photopierre.jpg" class="photopierre" alt="photo">
+            <article class="contact">
+                <h3>
+                    CONTACT
+                </h3>
+                <p class="contenuContact">
+                    Adresse<br><a href="https://www.google.fr/maps/place/59700+Marcq-en-Bar%C5%93ul/@50.6792883,3.0655607,13z/data=!3m1!4b1!4m5!3m4!1s0x47c32a2949a97adf:0xa87a5ee2bf1df6d6!8m2!3d50.670368!4d3.096267" target="blank">Marcq-en-Baroeul, France</a><br><br>
+                    Téléphone<br>06 26 60 12 43<br><br>
+                    Email<br>pruvost.pierre59@gmail.com<br><br>
+                    Linkedin<br><a href="https://www.linkedin.com/in/pierre-pruvost-78096413b" target="blank">Pruvost Pierre</a><br><br>
+                    Skype<br>@abp2p
                 </p>
             </article>
-
             <article class="apropos">
-                <div class="titreApropos">
-                    <h3>
-                        À PROPOS DE MOI
-                    </h3>
-                </div><br>
-                <p>
-                    Après une première expérience dans l'univers juridique, je me suis redirigé vers un domaine qui m'a toujours 
-                    particulièrement attiré : l'informatique, et plus spécialement : le web. Je suis, maintenant, passionné de développement. Étant 
-                    rigoureux, épistémophile et ayant le sens du travail d'équipe, je m'intègre aisément avec mes nouveaux collègues de travail. 
-                    En ce qui concerne mes centres d'intérêt, j'apprécie le cinéma, l'actualité ou encore les jeux vidéos.
+                <h3>
+                    À PROPOS DE MOI
+                </h3>
+                <p class="contenuApropos">
+                        Après une première expérience dans l'univers juridique, je me suis redirigé vers un domaine qui m'a toujours 
+                        particulièrement attiré : l'informatique, et plus spécialement : le web. Je suis, maintenant, passionné de développement. Étant 
+                        rigoureux, épistémophile et ayant le sens du travail d'équipe, je m'intègre aisément avec mes nouveaux collègues de travail. 
                 </p>
+            </article>
+            <article class="loisirs">
+                <h3>
+                    LOISIRS
+                </h3>
+                <div class="iconeLoisirs">
+                    <i class="far fa-newspaper fa-2x"></i>
+                    <i class="fas fa-plane fa-2x"></i>
+                    <i class="fas fa-gamepad fa-2x"></i>
+                </div>
             </article>
         </section> 
         
-        <!--Coté droit-->
+    <!--Coté droit-->
 
         <section id="ctdroit">
-            <article class="titre">
-                <h1>
-                    <strong class="nom">Pruvost</strong> Pierre
-                </h1>
-                <h2>
-                    Développeur Web <br>
-                    <img src="image/separateur.png" class="separateurD">
-                </h2>
-                
-            </article>
-
+            <h1>
+                <span>Pruvost</span> Pierre
+            </h1>
+            <h2>
+                <span>Dével</span>oppeur Web
+            </h2>
+    
             <article class="formation">
                 <h3>
-                    <img src="image/hat.png" class="hat"><strong>FORMATIONS</strong>
-                    <img src="image/separateur.png" class="separateurF">
+                    <img src="image/hat.png" class="hat" alt="diploma-hat">
+                    FORMATION
                 </h3>
-                <div>
-                    <p class="dates">
-                        <img src="image/dotcircle.png" class="dotcircle"> Août 2020<br><strong>Lille</strong>
-                    </p>
-                    <p class="renseignementsO">
-                        OPENCLASSROOMS<br>
-                        Développeur web junior<br>
-                    </p>
+                <div class="ligne">
+                    <div class="date">
+                        <i class="far fa-dot-circle"></i>Mars 2020<br><span>Lille</span>
+                    </div>
+                    <div class="texteDate">
+                        <h4>
+                            OPENCLASSROOMS
+                        </h4>
+                        <h5>
+                            Développeur Web junior
+                        </h5>
+                        <p>
+                            Cette formation diplômante met à disposition tous les enseignements nécessaires pour obtenir les 
+                            connaissances fondamentales à l'exercice du métier de développeur web junior.
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <p class="dates">
-                        <img src="image/dot.png" class="circle"> Juin 2017<br><strong>Valenciennes</strong>
-                    </p>
-                    <p class="renseignements">
-                        UPHF - FDEG<br>
-                        DEUG de Droit<br>
-                    </p>
+                <div class="ligne">
+                    <div class="date">
+                        <i class="fas fa-circle"></i>2015-2018<br><span>Valenciennes</span>
+                    </div>
+                    <div class="texteDate">
+                        <h4>
+                            UNIVERSITÉ P. HAUTS-DE-FRANCE
+                        </h4>
+                        <h5>
+                            DEUG de Droit
+                        </h5>
+                        <p>
+                            Formation universitaire de deux ans, suivant le schéma de la licence de Droit, effectuée à l'Université
+                            Polytechnique Hauts-de-France au sein de la FDEG de Valenciennes.
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <p class="dates">
-                        <img src="image/dot.png" class="circle"> Juin 2015<br><strong>Valenciennes</strong>
-                    </p>
-                    <p class="renseignements">
-                        LYCÉE DE L'ESCAUT<br>
-                        Baccalauréat économique et social<br>
-                    </p>
+                <div class="ligne">
+                    <div class="date">
+                        <i class="fas fa-circle"></i>2012-2015<br><span>Valenciennes</span>
+                    </div>
+                    <div class="texteDate">
+                        <h4>
+                            LYCÉE DE L'ESCAUT
+                        </h4>
+                        <h5>
+                            Baccalauréat économique et social
+                        </h5>
+                        <p>
+                            Diplôme de niveau IV obtenue en trois ans avec mention, catégorie économique et social jumelé avec les options
+                            économie approfondie ainsi que spé-mathématiques.
+                        </p>    
+                    </div>
                 </div>
             </article>
                 
             <article class="experience">
                 <h3>
-                    <img src="image/briefcase.png" class="briefcase"> <strong>EXPÉRIENCES PROFESSIONNELLES</strong><br>
-                    <img src="image/separateur.png" class="separateurE">
+                    <img src="image/briefcase.png" class="briefcase" alt="suitcase"> 
+                    EXPÉRIENCE PROFESSIONNELLE
                 </h3>
-                <ul>
-                    <li>Facteur - <strong>La Poste</strong>, Beaumont-les-Valence - Avril 2019 / Août 2019</li><br>
-                    <li>Agent technique - <strong>Certia</strong>, Villeneuve d'Asqc - Juillet 2016 / Août 2016</li><br>
-                    <li>Hôte de caisse - <strong>Carrefour</strong>, Denain - Septembre 2016 / Juin 2018</li><br>
-                </ul>
+                <div class="ligne">
+                    <div class="date">
+                        <i class="far fa-dot-circle"></i>Avril 2019 - Août 2019<br><span>Valence</span>
+                    </div>
+                    <div class="texteDate">
+                        <h4>
+                            LA POSTE
+                        </h4>
+                        <h5>
+                            Facteur
+                        </h5>
+                        <p>
+                            Poste en CDD renouvelé 3 fois sur une période totale de 5 mois. Tâches réalisées: trie du courrier, 
+                            trie des colis, organisation de la tournée en voiture, distribution courrier et colis.
+                        </p>
+                    </div>
+                </div>
+                <div class="ligne">
+                    <div class="date">
+                        <i class="fas fa-circle"></i>Août 2016 - Juin 2018<br><span>Denain</span>
+                    </div>
+                    <div class="texteDate">
+                        <h4>
+                            CARREFOUR
+                        </h4>
+                        <h5>
+                            Hôte de caisse
+                        </h5>
+                        <p>
+                            Emploi étudiant pendant la période universitaire ayant aboutie à l'obtention du DEUG de Droit. 
+                            Tâches réalisées: accueil client, enregistrement des achâts, encadrement des caisses libre-service.
+                        </p>
+                    </div>
+                </div>
             </article>
 
-            <article class="competence">
+            <article class="recommandation">
                 <h3>
-                    <img src="image/pencil.png" class="pencil"> <strong>COMPÉTENCES</strong><br>
-                    <img src="image/separateur.png" class="separateurC">
+                    <img src="image/pencil.png" class="pencil" alt="pencil"> 
+                    RECOMMANDATIONS
                 </h3>
-                <div class="informatique">
-                    <p>
-                        <ul>
-                            <li>Autodidacte</li><br>
-                            <li>Veille Informationnelle</li><br>
-                            <li>Environnement Windows</li><br>
-                        </ul>
-                    </p>
-                    <p>
-                        <ul>
-                            <li>HTML5</li><br>
-                            <li>CSS3</li><br>
-                            <li>JavaScript</li><br>
-                        </ul>
-                    </p>
+                <div class="groupeColonne">
+                    <div class="colonne">
+                        <h5>
+                            <strong>MAXIME KIEMAN</strong>
+                        </h5>
+                        <p>
+                            <strong>Directeur, Mon agence</strong><br>
+                            <strong>Téléphone:</strong><br>
+                            Email: name@email.com
+                        </p>
+                    </div>
+                    <div class="colonne">
+                        <h5>
+                            <strong>MAXIME KIEMAN</strong>
+                        </h5>
+                        <p>
+                            <strong>Directeur, Mon agence</strong><br>
+                            <strong>Téléphone:</strong><br>
+                            Email: name@email.com
+                        </p>
+                    </div>
                 </div>
             </article>
         </section>
